@@ -1,5 +1,5 @@
 # PREDATOR9
-created for True Love
+created for revanger
 
 it's a ddos tool for linux based oparating system 
 
